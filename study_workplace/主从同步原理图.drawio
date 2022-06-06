@@ -1,1 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2022-06-06T03:39:47.854Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" version="19.0.0" etag="AykSrdmEMGLkR62wS0VT" type="github"><diagram id="phryAcwlw3nnG8GdXJYX">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-06T11:14:29.325Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="WgvCYJo5bOKhwiDad8Al" version="19.0.0" type="github">
+  <diagram id="phryAcwlw3nnG8GdXJYX" name="第 1 页">
+    <mxGraphModel dx="1038" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_aRrDsJGosdm1hCMZiZL-1" value="" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="30" y="310" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_aRrDsJGosdm1hCMZiZL-2" value="" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;strokeWidth=2;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="480" y="310" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_aRrDsJGosdm1hCMZiZL-3" value="master" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="185" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_aRrDsJGosdm1hCMZiZL-4" value="slave" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="635" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_aRrDsJGosdm1hCMZiZL-21" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="360" y="150" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_aRrDsJGosdm1hCMZiZL-22" value="" style="group" vertex="1" connectable="0" parent="_aRrDsJGosdm1hCMZiZL-21">
+          <mxGeometry width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_aRrDsJGosdm1hCMZiZL-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.087;entryY=-0.003;entryDx=0;entryDy=0;fontSize=14;entryPerimeter=0;" edge="1" parent="_aRrDsJGosdm1hCMZiZL-22" target="_aRrDsJGosdm1hCMZiZL-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="37" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="275" y="37" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_aRrDsJGosdm1hCMZiZL-7" value="第一次同步请求 ，携带replid 和 offset" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="_aRrDsJGosdm1hCMZiZL-22">
+          <mxGeometry x="-50" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_aRrDsJGosdm1hCMZiZL-36" value="check : 判断是否是第一次请求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="250" y="200" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_aRrDsJGosdm1hCMZiZL-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="_aRrDsJGosdm1hCMZiZL-37" target="_aRrDsJGosdm1hCMZiZL-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_aRrDsJGosdm1hCMZiZL-37" value="根据 replid是否一致判断" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="165" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_aRrDsJGosdm1hCMZiZL-39" value="执行replicaof指令，建立与master的连接" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="695" y="160" width="132.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_aRrDsJGosdm1hCMZiZL-44" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="330" y="300" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_aRrDsJGosdm1hCMZiZL-45" value="" style="group" vertex="1" connectable="0" parent="_aRrDsJGosdm1hCMZiZL-44">
+          <mxGeometry width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_aRrDsJGosdm1hCMZiZL-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="_aRrDsJGosdm1hCMZiZL-45" source="_aRrDsJGosdm1hCMZiZL-1" target="_aRrDsJGosdm1hCMZiZL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_aRrDsJGosdm1hCMZiZL-41" value="发送master的数据版本信息，以及主节点的replid和 offset" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="_aRrDsJGosdm1hCMZiZL-45">
+          <mxGeometry width="210" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
