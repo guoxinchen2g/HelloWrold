@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-23T10:02:04.575Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="my5HQzuP0KP_7l27Ppvp" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-23T10:15:09.810Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="NAr7GBg3GxOv96j8nWY5" version="20.0.3" type="github">
   <diagram id="eZQI212zW49PJOHGEDup" name="第 1 页">
     <mxGraphModel dx="1038" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -68,16 +68,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KIiZi3-VXo7V8YcJdM5M-21" value="dtos" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="50" y="740" width="120" height="60" as="geometry" />
+          <mxGeometry x="50" y="650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KIiZi3-VXo7V8YcJdM5M-22" value="orderDto&lt;br&gt;orderInfo&lt;br&gt;orderItem" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="230" y="740" width="120" height="60" as="geometry" />
+          <mxGeometry x="230" y="650" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KIiZi3-VXo7V8YcJdM5M-24" value="nacos 配置" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="530" y="280" width="120" height="60" as="geometry" />
+        <mxCell id="KIiZi3-VXo7V8YcJdM5M-24" value="nacos 配置" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="530" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KIiZi3-VXo7V8YcJdM5M-26" value="FreightTemplate" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="60" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIiZi3-VXo7V8YcJdM5M-28" value="启动类" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="530" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIiZi3-VXo7V8YcJdM5M-29" value="配置文件" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="730" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIiZi3-VXo7V8YcJdM5M-30" value="日志" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="730" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KIiZi3-VXo7V8YcJdM5M-31" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;strokeWidth=2;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="300" width="370" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="KIiZi3-VXo7V8YcJdM5M-32" value="实体类" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="160" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KIiZi3-VXo7V8YcJdM5M-33" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;strokeWidth=2;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="270" width="400" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="KIiZi3-VXo7V8YcJdM5M-34" value="相关配置" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;rotation=90;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="345" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
